@@ -38,3 +38,7 @@ def home5(request):
 
 def home6(request):
     return render(request, 'blog/exemplos/home6.html')
+
+
+def home7(request):
+    return render(request, 'blog/exemplos/home7.html')
