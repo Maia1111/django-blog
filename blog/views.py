@@ -3,12 +3,8 @@ from django.shortcuts import render
 from blog.models import Post
 
 
-def home(request):    
-    post = Post.objects.all()
-    context = {
-        'posts': post
-    }
-    return render(request, 'blog/home.html', context)
+def home(request):        
+    return render(request, 'blog/home.html')
 
 
 def post_detail(request, post_id):
