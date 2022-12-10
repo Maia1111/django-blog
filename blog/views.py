@@ -38,3 +38,7 @@ def home6(request):
 
 def home7(request):
     return render(request, 'blog/exemplos/home7.html')
+
+
+def colapse(request):
+    return render(request, "blog/exemplos/colapse.html")

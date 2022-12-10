@@ -10,5 +10,6 @@ urlpatterns = [
     path("home5", views.home5, name="home5"),
     path("home6", views.home6, name="home6"),
     path("home7", views.home7, name="home7"),
+    path("colapse", views.colapse, name="colapse"),
     path('post/<int:post_id>/post_detail', views.post_detail, name='post_detail'),
 ]
