@@ -42,3 +42,9 @@ def home7(request):
 
 def colapse(request):
     return render(request, "blog/exemplos/colapse.html")
+
+def flexbox(request):
+    return render(request, "blog/exemplos/flexbox.html" )
+
+def flexbox2(request):
+    return render(request, "blog/exemplos/flexbox2.html")
